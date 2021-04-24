@@ -35,5 +35,5 @@ void loop() {
     }
     http.end();
   }
-  delay(1000);
+  delay(10000);
 }
