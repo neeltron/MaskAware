@@ -8,7 +8,6 @@ void setup() {
 }
 
 void loop() {
-  Serial.println(mlx.readAmbientTempF());
-  Serial.println(mlx.readObjectTempF()+7);
-  delay(1000);
+  Serial.println(mlx.readObjectTempC());
+  delay(100);
 }
