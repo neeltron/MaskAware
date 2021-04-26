@@ -3,8 +3,8 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 
-const char* ssid = "Trikuldham";
-const char* password = "jaihanuman1981";
+const char* ssid = "ssid";
+const char* password = "pass";
 int sensorValue;
 Adafruit_MLX90614 mlx = Adafruit_MLX90614();
 
